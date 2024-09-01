@@ -44,7 +44,7 @@ $threads = getFourChanData();
     </div>
     <div class="card-footer">
         <p class="card-text text-center">"Refresh" to get the latest posts and comments... &#8594;
-            <button class="btn btn-success" onclick='window.location.reload(true);'>Refresh</button>
+            <button class="btn btn-success" onclick='window.location.reload();'>Refresh</button>
         </p>
     </div>
 </div>

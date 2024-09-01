@@ -2,7 +2,7 @@
 
 const LOGS_DIR = __DIR__ . "/../../logs/";
 
-function logRequest($url): void
+function logRequest(): void
 {
     $log = fopen(LOGS_DIR . "requests.log", "a");
     $date = date("Y-m-d H:i:s");
@@ -14,7 +14,7 @@ function logRequest($url): void
     fclose($log);
 }
 
-function logHeaders($url): void
+function logHeaders(): void
 {
     $log = fopen(LOGS_DIR . "headers.log", "a");
     $date = date("Y-m-d H:i:s");

@@ -244,8 +244,8 @@ function getFourChanData(): array
 
     $data = file_get_contents($url, false, $context);
 
-    logRequest($url);
-    logHeaders($url);
+    logRequest();
+    logHeaders();
 
     $json = json_decode($data, true);
     return $json[0]['threads'];
