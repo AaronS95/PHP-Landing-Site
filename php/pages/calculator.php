@@ -43,4 +43,3 @@ if (isset($_GET['num1'], $_GET['num2'], $_GET['operator'])) {
         </div>
     <?php endif; ?>
 </div>
-</div>
